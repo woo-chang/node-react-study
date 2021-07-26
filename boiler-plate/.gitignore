@@ -1,0 +1,8 @@
+# Mac OS
+.DS_Store
+
+# mongo DB password
+dev.js
+
+# node.js
+node_modules/
