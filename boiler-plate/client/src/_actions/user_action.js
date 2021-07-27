@@ -29,7 +29,7 @@ export function registerUser(dataToSubmit) {
 
 export function auth() {
     
-    const request = axios.get('/api/users/auth', dataToSubmit) // GET 메소드이므로 body 부분을 필요 x
+    const request = axios.get('/api/users/auth') // GET 메소드이므로 body 부분을 필요 x
         .then(response => response.data) // 서버에서 받은 데이터를 request에 저장
 
     return { // request를 Reducer에 넘겨주는 작업, 이전의 값과 action으로 새로운 값을 생성
